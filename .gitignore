@@ -1,5 +1,42 @@
+# Arquivos de compilação Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de build
 /bin/
+/build/
+/target/
+
+# Arquivos de logs
+*.log
+
+# IDE Eclipse
 /.settings/
 /.classpath
 /.project
+
+# IDE IntelliJ
+/.idea/
+/*.iml
+
+# Metadata de workspace
 .metadata/
+
+# Arquivos temporários do sistema
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Dependências (caso use Maven ou Gradle)
+!.mvn/wrapper/maven-wrapper.jar
+/mvnw
+/mvnw.cmd
+/gradle/wrapper/gradle-wrapper.jar
+.gradle/
+/build/
+
+# Arquivos de teste ou relatórios
+/test-output/
+/reports/
