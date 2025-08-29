@@ -1,9 +1,8 @@
-
 public class Baskara {
 
 	public static void main(String[] args) {
 		double a = 1;
-		double b = -7;
+		double b = 17;
 		double c = 12;
 		double delta = b*b-4*(a*c);
 		double raizpos;
