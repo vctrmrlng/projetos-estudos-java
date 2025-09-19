@@ -13,7 +13,9 @@ public class TesteClasseString {
 		System.out.println("Maiúsculo: " + nome.toUpperCase());
 		System.out.println("Minúsculo: " + nome.toLowerCase());
 		String idadeStr = String.valueOf(idade);
+		System.out.println("Só para não dar erro" + idadeStr);
 		System.out.println("Mais exemplos no Slide da aula");
+		
 	}
 
 }

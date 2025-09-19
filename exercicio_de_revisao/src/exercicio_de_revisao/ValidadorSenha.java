@@ -1,6 +1,5 @@
 package exercicio_de_revisao;
 
-import java.util.Scanner;
 
 public class ValidadorSenha {
 
@@ -11,7 +10,8 @@ public class ValidadorSenha {
 		for (int i=0; i< senha.length(); i++)
 			for (int j=0; j < maiusculas.length();j++) {
 				if (this.senha.charAt(i) == maiusculas.charAt(j))
-					return true}
+					return true;
+				}
 	}
 	
 	public boolean verificarSeguranca() {
