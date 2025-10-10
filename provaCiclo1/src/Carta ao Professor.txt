@@ -1,0 +1,21 @@
+Caro Professor,
+meu cérebro já parou de funcionar e só faltam cinco minutos para meio dia então estou te enviando sem implementar as duas ultimas etapas da parte 5 que seriam
+
+Requisitos do GerenciadorTarefas (Atualização):
+1.	Adicionar Tarefa (1):
+o	Quando pedir o nome, pergunte ao usuário se ele quer adicionar uma descrição agora (S/N).
+o	Se S, peça a descrição e use o construtor sobrecarregado para criar o objeto Tarefa.
+o	Se N, use o construtor original (apenas com o nome).
+2.	Novo Item no Menu: Adicione uma nova opção ao menu do método exibirmenu():
+o	4. Marcar Tarefa como Concluída/Pendente
+No método main():
+3.	Marcar Tarefa (4):
+o	Se o usuário escolher 4, verifique se há uma tarefa cadastrada.
+o	Se sim, pergunte se deseja marcar como "Concluída (C)" ou "Pendente (P)".
+o	Leia a entrada (String) do usuário.
+o	Use String.toUpperCase().charAt(0) para obter o primeiro caractere da resposta.
+o	Com uma condicional, chame marcarComoConcluida() ou marcarComoPendente() no objeto Tarefa de acordo com a escolha.
+o	Se a opção for inválida, exiba uma mensagem de erro.
+
+
+O resto eu fiz e acho que ficou bom.
