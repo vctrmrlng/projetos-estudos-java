@@ -12,6 +12,7 @@ public class ValidadorSenha {
 				if (this.senha.charAt(i) == maiusculas.charAt(j))
 					return true;
 				}
+		return false;
 	}
 	
 	public boolean verificarSeguranca() {
